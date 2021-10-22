@@ -14,7 +14,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: #384a6d;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,16 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
-
+.logo {
+    font-family: "Roboto", sans-serif;
+    background: radial-gradient(
+        83.89% 535.05% at 90.6% 79.66%,
+        #10b652 0%,
+        #06f2ba 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .App-link {
     color: #61dafb;
 }

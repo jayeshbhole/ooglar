@@ -34,7 +34,7 @@ function App() {
     return (
         <div className='App'>
             <header className='App-header'>
-                <h1>Ooglar</h1>
+                <h1 className='logo'>ooglar!</h1>
                 <div className='preview'>
                     {photo && (
                         <img
@@ -45,7 +45,12 @@ function App() {
                     )}
                 </div>
                 <div className='caption'>
-                    <h4>{caption}</h4>
+                    {/* Insert Caption Here */}
+                    {/* <h4>two dogs are playing in green grass</h4> */}
+                    {/* <h4>yellow bus in grey road</h4> */}
+                    {/* <h4>a woman in black dress playing tennis</h4> */}
+
+                    {/* <h4>two dogs are playing in green grass</h4> */}
                 </div>
                 <form onSubmit={handleSubmit} className='form-con'>
                     <FileUpload
